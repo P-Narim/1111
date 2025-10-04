@@ -1,0 +1,30 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  const handleClick = () => {
+    alert("🎉 Welcome to Narim's Lab1 !");
+  };
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello! This is Narim Park:-)</h1>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+
+      <button onClick={handleClick}>Click ME!</button>
+
+      </header>
+    </div>
+  );
+}
+
+export default App;
